@@ -1,0 +1,116 @@
+body{
+  font-family: 'Inter', sans-serif  !important;
+}
+.layout-wrapper{
+  background: #F5F8FA;
+}
+.layout-main .card{
+  background: #FFFFFF;
+}
+.layout-menu li a:hover {
+    background-color: aliceblue !important;
+}
+.card-header {
+    background: none;
+}
+.card-footer {
+    background: none;
+}
+
+.btn-edit {
+    background: url("/img/btn-edit.svg") no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+  }
+  .btn-delete {
+    background: url("/img/btn-delete.svg") no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+  }
+  .btn-blue {
+    background: #6993ff;
+    border: 1px solid #6993ff;
+    margin-left: 10px;
+  }
+  .table .thead-light th {
+    color: #B5B5C3;
+    background: #F5F8FA;
+    border-color: #F5F8FA;
+}
+.table-card  {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+.table-card .title-card {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3f4254;
+}
+.table {
+  color: #7E8299;
+}
+.form-input .col-form-label{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3F4254;
+}
+.btn-secondary{
+  background-color: #6993ff;
+}
+#md-resources .modal-xl{
+  max-width: none !important;
+  padding: 10px
+}
+#md-review .modal-xl{
+  max-width: none !important;
+  padding: 10px
+}
+#md-edit .modal-xl{
+  max-width: none !important;
+  padding: 10px
+}
+.input-group-text:hover{
+  background-color: #6993ff;
+}
+
+.table-fixed{
+  position: fixed;
+  bottom: 0;
+  width: 52.6%;
+  z-index: 999;
+  background-color: #fff;
+  border: 1px solid;
+  box-shadow: 10px 10px 8px #737473;
+}
+
+.review-img img{
+  width: auto !important;
+  max-height: 180px;
+  max-width: 100%;
+}
+.review-img {
+  background: #f3f6f9;
+  border: 1px dashed #6993ff;
+  padding: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #6993ff;
+}
